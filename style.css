@@ -4,6 +4,23 @@ body {
         font-weight: 400;
         font-style: normal;
       }
+
+      .btn { 
+        font-size: 24px 
+      }
       
+      .btn-primary {
+        background-color: #68B8C1;
+        border-color: #68B8C1;
+      }
+
+      .btn-primary:hover {
+        background-color: #76d4df;
+        border-color: #68B8C1;
+      }
+      
+      .btn-outline-primary {
+        background-color: #68B8C1;
+      }
   }
   
