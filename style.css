@@ -15,12 +15,23 @@ body {
       }
 
       .btn-primary:hover {
-        background-color: #76d4df;
+        background-color: #fff;
+        color: #68B8C1;
         border-color: #68B8C1;
       }
       
       .btn-outline-primary {
         background-color: #68B8C1;
+      }
+
+      .card {
+        transition: all 0.2s ease;
+        cursor: pointer;
+      }
+  
+      .card:hover {
+        box-shadow: 5px 6px 6px 2px #68b8c13d;
+        transform: scale(1.01);
       }
   }
   
