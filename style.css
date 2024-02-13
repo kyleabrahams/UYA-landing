@@ -8,7 +8,7 @@ body {
       a {
         text-decoration: none;
        }
-       
+
       .btn { 
         font-size: 24px 
       }
@@ -19,6 +19,7 @@ body {
       }
 
       .btn-primary:hover {
+        transition: all 0.2s ease;
         background-color: #fff;
         color: #68B8C1;
         border-color: #68B8C1;
@@ -27,6 +28,20 @@ body {
       .btn-outline-primary {
         background-color: #68B8C1;
       }
+
+      .btn-secondary {
+        background-color: #ffffff;
+        color: #68B8C1;
+        border-color: #68B8C1;
+      }
+
+      .btn-secondary:hover {
+        transition: all 0.2s ease;
+        background-color: #68B8C1;
+        color: #ffffff;
+        border-color: #ffffff;
+      }
+
 
       .card {
         transition: all 0.2s ease;
