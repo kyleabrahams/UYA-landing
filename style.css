@@ -23,6 +23,10 @@ body {
         background-color: #fff;
         color: #68B8C1;
         border-color: #68B8C1;
+        /* transform: translateY(-5px); */
+        transform: scale(1.02);
+
+
       }
       
       .btn-outline-primary {
@@ -40,6 +44,9 @@ body {
         background-color: #68B8C1;
         color: #ffffff;
         border-color: #ffffff;
+        /* transform: translateY(-5px); */
+        transform: scale(1.02);
+        
       }
 
 
